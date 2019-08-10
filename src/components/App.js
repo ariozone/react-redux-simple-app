@@ -9,7 +9,7 @@ const App = () => {
         <div className='ui column eight wide'>
           <SongList />
         </div>
-        <div className='ui column eight wide'>
+        <div className='ui column eight wide center aligned '>
           <SongDetail />
         </div>
       </div>

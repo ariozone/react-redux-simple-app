@@ -6,7 +6,7 @@ class SongList extends Component {
   render() {
     return (
       <div className='ui divided list'>
-        <h1>Songs List</h1>
+        <h1 className=' header item '>Songs List</h1>
 
         {this.props.songs.map(song => (
           <div className='item' key={song.title}>
