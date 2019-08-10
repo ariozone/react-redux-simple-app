@@ -1,11 +1,21 @@
 import React from "react"
 import { connect } from "react-redux"
 
-const SongDetail = () => {
-  return (
+const SongDetail = ({ song }) => {
+  return song ? (
     <div>
-      <h1>Song Detail</h1>
+      <h1>{song.title}</h1>
+      <h3>{song.artist}</h3>
+      <h5>Duration: {song.duration}</h5>
     </div>
+  ) : (
+    <h1>Select a Song</h1>
   )
 }
-export default SongDetail
+const mapStateToProps = state => {
+  return {
+    song: state.selectedSong
+  }
+}
+
+export default connect(mapStateToProps)(SongDetail)
