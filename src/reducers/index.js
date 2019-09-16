@@ -7,7 +7,7 @@ const songsReducer = () => {
     { title: "When Doves Cry", artist: "Prince", duration: "5:52" },
     {
       title: "I Wanna Dance with Somebody",
-      Artist: "Whitney Houston",
+      artist: "Whitney Houston",
       duration: "4:51"
     }
   ]
