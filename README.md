@@ -1,3 +1,31 @@
+# Songs
+##### Is a simple app that uses react and redux basics to render elements.
+
+## Technologies
+
+- Semantic UI
+- JavaScript
+- React
+- Redux
+
+## Tools
+- create-react-app
+- react-redux
+
+## Usage
+
+##### Clone and install dependencies.
+```
+git clone https://github.com/ariozone/react-redux-simple-app.git
+
+cd react-redux-simple-ap/
+npm install
+```
+##### Run the App:
+```
+npm start
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
